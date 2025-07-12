@@ -33,7 +33,7 @@ full_name = input1 + " " + input2
 print("Hello, ", full_name, "! Welcome to the Python Program.")
 
 
-Task 1_1
+Task 2_1
  Step-by-Step Functionality
 - Input from User
 - The line x = int(input("Enter a number :")) prompts the user to enter a number.
@@ -49,7 +49,7 @@ Task 1_1
 - Final Message
 - Regardless of the input, it ends by printing "Thank You".
 
-Task 1_2
+Task 2_2
 
  Step-by-Step Functionality
 - Initialization
