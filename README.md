@@ -63,9 +63,41 @@ Task 2_2
 - Final Output
 - print("Sum:", sum): Once the loop ends (when counter reaches 51), it prints the final value of sum.
 
+Task 3_1 
 
+ Step-by-Step Breakdown
+- User Input
+- Prompts the user to enter a number.
+- Converts the input from a string to an integer and stores it in variable x.
+- Function Definition
+def factortial(x) :
+    if x < 2 :
+        return 1
+    else :
+        return x * (factortial(x-1))
+- Defines a recursive function called factortial (note: "factorial" is misspelled—but the function still works).
+- Base case: If x is less than 2 (i.e. 0 or 1), it returns 1.
+- Recursive case: If x is 2 or more, the function calls itself with (x - 1) and multiplies the result by x.
+- Calling the Function
+result = factortial(x)
+- Calls the factortial function using the user’s input and stores the result.
+- Output
+print(result)
+- Prints the factorial of the entered number.
 
+Task 3_2
 
-
-
-
+Step-by-Step Functionality
+- Importing the math Module
+- This gives access to mathematical functions like sqrt(), log(), and sin() from the built-in math library.
+- Taking User Input
+- Prompts the user to enter a number.
+- The input is read as a string and then converted to an integer using int().
+- Calculating the Square Root
+ - Uses math.sqrt() to compute the square root of the entered number.
+- Calculating the Natural Logarithm
+- Uses math.log() to compute the natural logarithm (log base e).
+- Calculating the Sine
+- Uses math.sin() to compute the sine of the number, treating it as an angle in radians.
+- Displaying the Results
+- Prints all the computed values nicely for the user to see.
